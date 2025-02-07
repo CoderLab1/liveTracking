@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #map {
+        height: 70vh; 
+    }
+}
+
+@media (max-width: 480px) {
+    #map {
+        height: 60vh; 
+    }
+}
+
+@media (max-width: 320px) {
+    #map {
+        height: 50vh;  
+    }
+}
